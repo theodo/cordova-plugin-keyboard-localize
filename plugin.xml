@@ -13,9 +13,6 @@
   </engines>
 
   <platform name="ios">
-    <config-file target="*-Info.plist" parent="CFBundleDevelopmentRegion">
-      <string>fr_FR</string>
-    </config-file>
     <config-file target="*-Info.plist" parent="CFBundleAllowMixedLocalizations">
       <true/>
     </config-file>
