@@ -2,6 +2,9 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
         id="com.simplifield.keyboardLocalize"
         version="0.1.0">
+  
+  <keywords>keyboard,localize</keywords>
+  <repo>https://github.com/SimpliField/cordova-plugin-keyboard-localize</repo>
 
   <name>Keyboard Localize</name>
 
