@@ -3,7 +3,7 @@ Keyboard Localize
 
 The plugin allow to translate buttons action of keyboard.
 
-    cordova plugin add https://github.com/SimpliField/cordova-plugin-keyboard-localize
+    cordova plugin add com.simplifield.keyboardlocalize
 
 Configuration
 -------------
