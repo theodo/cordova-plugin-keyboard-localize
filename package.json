@@ -1,7 +1,14 @@
 {
     "version": "0.1.0",
-    "name": "cordova-plugin-keyboard-localize",
+    "name": "com.simplifield.keyboardlocalize",
     "cordova_name": "Keyboard Localize",
+    "repo": "https://github.com/SimpliField/cordova-plugin-keyboard-localize",
+    "keywords": [
+        "ecosystem:cordova",
+        "cordova-ios",
+        "keyboard",
+        "localize"
+    ],
     "platforms": [
         "ios"
     ],
@@ -10,6 +17,5 @@
             "name": "cordova",
             "version": ">=3.4.0"
         }
-    ],
-    "author": "Simplifield"
+    ]
 }

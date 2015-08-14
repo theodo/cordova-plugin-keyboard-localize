@@ -1,21 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-        id="com.simplifield.keyboardLocalize"
-        version="0.1.0">
-  
-  <keywords>keyboard,localize</keywords>
-  <repo>https://github.com/SimpliField/cordova-plugin-keyboard-localize</repo>
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.simplifield.keyboardLocalize" version="0.1.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>Keyboard Localize</name>
 
-  <name>Keyboard Localize</name>
+    <keywords>keyboard,localize</keywords>
+    <repo>https://github.com/SimpliField/cordova-plugin-keyboard-localize</repo>
 
-  <engines>
-    <engine name="cordova" version=">=3.4.0"/>
-  </engines>
+    <engines>
+      <engine name="cordova" version=">=3.4.0"/>
+    </engines>
 
-  <platform name="ios">
-    <config-file target="*-Info.plist" parent="CFBundleAllowMixedLocalizations">
-      <true/>
-    </config-file>
-  </platform>
-
+    <platform name="ios">
+      <config-file target="*-Info.plist" parent="CFBundleAllowMixedLocalizations">
+        <true/>
+      </config-file>
+    </platform>
 </plugin>
